@@ -4,7 +4,6 @@
  *      <div id="child">
  *          <h1>Hello 1, world from React! 🚀</h1> 
  *          <h1>Hello 2, world from React! 🚀</h1>   
-   
  *      </div>
  * </div>
  * 
@@ -22,4 +21,4 @@ const parent = React.createElement(
      ));
 console.log(parent);
 const root = document.getElementById('root');
-ReactDOM.render(parent, root); 
+ReactDOM.render(parent, root); // replace root id with parent object
